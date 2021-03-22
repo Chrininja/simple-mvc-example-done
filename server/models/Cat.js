@@ -81,5 +81,6 @@ CatSchema.statics.findByName = (name, callback) => {
 CatModel = mongoose.model('Cat', CatSchema);
 
 // export our public properties
+// circle
 module.exports.CatModel = CatModel;
 module.exports.CatSchema = CatSchema;
